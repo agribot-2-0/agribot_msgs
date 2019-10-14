@@ -44,7 +44,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AgribotCaterpillar.msg
-  InclinometerData.msg
+  AgribotInclinometer.msg
 )
 
 ## Generate services in the 'srv' folder
