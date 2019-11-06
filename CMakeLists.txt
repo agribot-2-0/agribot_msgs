@@ -46,6 +46,7 @@ add_message_files(
   AgribotCaterpillar.msg
   AgribotInclinometer.msg
   AgribotTool.msg
+  AgribotHeading.msg
 )
 
 ## Generate services in the 'srv' folder
