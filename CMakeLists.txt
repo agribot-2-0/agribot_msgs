@@ -14,6 +14,7 @@ add_compile_options(-std=c++11)
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
+  sensor_msgs
 )
 
 ################################################
@@ -46,6 +47,8 @@ add_message_files(
   AgribotCaterpillar.msg
   AgribotInclinometer.msg
   AgribotTool.msg
+  AgribotHeading.msg
+  AgribotGnss.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -66,6 +69,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  sensor_msgs
 )
 
 ################################################
