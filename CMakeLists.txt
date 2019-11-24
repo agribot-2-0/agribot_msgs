@@ -49,6 +49,7 @@ add_message_files(
   AgribotTool.msg
   AgribotHeading.msg
   AgribotGnss.msg
+  AgribotManualControl.msg
 )
 
 ## Generate services in the 'srv' folder
