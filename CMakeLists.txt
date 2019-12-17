@@ -47,7 +47,6 @@ add_message_files(
   AgribotCaterpillar.msg
   AgribotInclinometer.msg
   AgribotTool.msg
-  AgribotHeading.msg
   AgribotGnss.msg
   AgribotManualControl.msg
 )
