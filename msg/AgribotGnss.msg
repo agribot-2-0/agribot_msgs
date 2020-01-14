@@ -1,9 +1,0 @@
-std_msgs/Header header
-sensor_msgs/NavSatStatus status
-uint8 rtk
-uint8 gnss_flag
-float64 latitude
-float64 longitude
-float64 altitude
-float64 horizaontal_accuracy
-float64 vertical_accuracy
