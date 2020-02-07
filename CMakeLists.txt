@@ -46,6 +46,7 @@ add_message_files(
   AgribotCaterpillar.msg
   AgribotTool.msg
   AgribotManualControl.msg
+  AgribotMobileAppFrame.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
