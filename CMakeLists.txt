@@ -47,6 +47,7 @@ add_message_files(
   AgribotTool.msg
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
+  AgribotMoveBaseMonitorResult.msg
 )
 
 ## Generate added messages and services with any dependencies listed here

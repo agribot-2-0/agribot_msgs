@@ -1,0 +1,4 @@
+std_msgs/Header header
+int32 result
+int32 current_waypoint
+int32 total_waypoints
