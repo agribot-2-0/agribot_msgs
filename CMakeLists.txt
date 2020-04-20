@@ -50,6 +50,11 @@ add_message_files(
   AgribotMoveBaseMonitorResult.msg
 )
 
+add_service_files(
+  FILES
+  Tags.srv
+)
+
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
