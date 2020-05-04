@@ -48,6 +48,8 @@ add_message_files(
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
   AgribotMoveBaseMonitorResult.msg
+  AgribotWind.msg
+  AgribotPrecipitation.msg
 )
 
 add_service_files(

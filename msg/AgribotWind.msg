@@ -1,0 +1,7 @@
+std_msgs/Header Header
+float32 minimum_direction
+float32 average_direction
+float32 maximum_direction
+float32 minimum_speed
+float32 average_speed
+float32 maximum_speed
