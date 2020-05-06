@@ -1,4 +1,4 @@
-std_msgs/Header Header
+std_msgs/Header header
 float32 minimum_direction
 float32 average_direction
 float32 maximum_direction
