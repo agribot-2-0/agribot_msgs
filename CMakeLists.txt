@@ -48,11 +48,20 @@ add_message_files(
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
   AgribotMoveBaseMonitorResult.msg
+  AgribotWind.msg
+  AgribotPrecipitation.msg
 )
 
 add_service_files(
   FILES
   Tags.srv
+  ChangeCommunicationSettings.srv
+  ChangeSupervisorSettings.srv
+  ResetPrecipitationIntensity.srv
+  ChangePrecipitationSettings.srv
+  ChangeWindSettings.srv
+  ChangePresTempHumSettings.srv
+  ResetPrecipitationcounter.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
