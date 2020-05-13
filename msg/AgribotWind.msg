@@ -5,3 +5,5 @@ float32 maximum_direction
 float32 minimum_speed
 float32 average_speed
 float32 maximum_speed
+float32 direction_variance
+float32 speed_variance
