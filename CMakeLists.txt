@@ -13,6 +13,7 @@ add_compile_options(-std=c++11)
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -50,6 +51,13 @@ add_message_files(
   AgribotMoveBaseMonitorResult.msg
   AgribotWind.msg
   AgribotPrecipitation.msg
+  DetectedObjectsArray.msg
+  DetectedObject.msg
+  BoundingBox.msg
+  ObjectClass.msg
+  SonarStatus.msg
+  SonarDetection.msg
+  AgribotObstacleDetection.msg
 )
 
 add_service_files(
@@ -68,6 +76,7 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
 )
 
 ################################################
@@ -87,7 +96,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES agribot_msgs
- CATKIN_DEPENDS message_runtime std_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs
 #  DEPENDS system_lib
 )
 
