@@ -1,4 +1,4 @@
-uint32  class
+uint32  object_class
 float32 probability
 
 # Allowed object classes
