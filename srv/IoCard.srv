@@ -1,11 +1,11 @@
+#request constants
+uint8 NONE=255
+uint8 PORT0=0
+uint8 PORT1=1
 #request fields
-bool set_do_port0
-uint8 port0_mask
-bool set_do_port1
-uint8 port1_mask
-bool read_port0
-bool read_port1
+uint8 sel_out_port
+uint8 out_port_mask
+uint8 sel_read_port
 ---
 #response fields
-uint8 port0_state
-uint8 port1_state
+uint8 port_state
