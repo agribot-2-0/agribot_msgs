@@ -63,7 +63,8 @@ add_message_files(
 add_service_files(
   FILES
   Tags.srv
-  IoCard.srv
+  IoCardOut.srv
+  IoCardIn.srv
   ChangeCommunicationSettings.srv
   ChangeSupervisorSettings.srv
   ResetPrecipitationIntensity.srv
