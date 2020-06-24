@@ -6,3 +6,4 @@ uint16 pin # DI[0-15]
 ---
 #response fields
 uint8 state
+bool success
