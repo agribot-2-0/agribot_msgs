@@ -3,7 +3,7 @@ uint8 status
 
 # Additional information for submodules
 uint8 sonar_status
-uint8 lidar_status
+uint8 vision_status
 
 
 ### CONSTANTS ###
