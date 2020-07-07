@@ -51,7 +51,7 @@ add_message_files(
   AgribotMoveBaseMonitorResult.msg
   AgribotWind.msg
   AgribotPrecipitation.msg
-  DetectedObjectsArray.msg
+  VisionDetection.msg
   DetectedObject.msg
   BoundingBox.msg
   ObjectClass.msg
