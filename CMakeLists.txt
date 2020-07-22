@@ -60,6 +60,8 @@ add_message_files(
   SonarStatus.msg
   SonarDetection.msg
   AgribotObstacleDetection.msg
+  Polygon.msg
+  PolygonStamped.msg
 )
 
 add_service_files(
