@@ -1,11 +1,12 @@
+Header header
 string id
 uint8 status
 
-# Only for debuggin / visualization purposes
+# Only for debugging / visualization purposes
 float32 shortest_range  # Shortest range currently kept in history
 float32 last_range      # Last measurement
 float32 threshold       # Detection threshold
-
+float32 field_of_view   # Sonar FOV
 
 ### CONSTANTS ###
 # Status types
