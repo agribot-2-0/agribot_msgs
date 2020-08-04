@@ -1,0 +1,10 @@
+#request constants
+uint8 FRONT=1
+uint8 BACK=2
+uint8 selected_antenna
+uint8 power_value
+---
+#response constants
+uint8 SUCCESS=1
+uint8 FAIL=2
+uint8 result

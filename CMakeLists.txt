@@ -68,6 +68,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  RfidPower.srv
   Tags.srv
   IoCardOut.srv
   IoCardIn.srv
