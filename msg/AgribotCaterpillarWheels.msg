@@ -1,5 +1,5 @@
 std_msgs/Header header
-int32 front_left
-int32 front_right
-int32 back_left
-int32 back_right
+float64 front_left
+float64 front_right
+float64 back_left
+float64 back_right
