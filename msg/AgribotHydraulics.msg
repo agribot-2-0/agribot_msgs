@@ -1,3 +1,9 @@
 std_msgs/Header header
-float32 oil_pressure
-float32 oil_temperature
+float32 oil_pressure_track_FL
+float32 oil_pressure_track_FR
+float32 oil_pressure_track_BL
+float32 oil_pressure_track_BR
+float32 oil_pressure_manifolf_F
+float32 oil_pressure_manifold_B
+float32 oil_cooler_temperature
+float32 oil_tanktemperature
