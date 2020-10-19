@@ -4,4 +4,4 @@ int32 fuel_temperature
 int32 fuel_level
 float32 fuel_rate
 int32 torque_of_engine
-int32 RPM
+int32 rpm

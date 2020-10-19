@@ -34,9 +34,12 @@ int32 error_total_count
 uint8 ERROR_ACTIVE = 1
 uint8 ERROR_PASSIVE = 0
 
+# The lamp states are described under the link
+# https://elearning.vector.com/mod/page/view.php?id=436
+# but to be sure you may need to see the engines CAN description,
+# because lamps can slightly differ in functions for different engines
 uint8 LAMP_2HZ = 3
 uint8 LAMP_1HZ = 2
 uint8 LAMP_ON = 1
 uint8 LAMP_OFF = 0
 
-#https://elearning.vector.com/mod/page/view.php?id=436
