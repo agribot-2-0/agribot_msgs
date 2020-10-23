@@ -71,7 +71,7 @@ add_service_files(
   FILES
   RfidPower.srv
   Tags.srv
-  ToolState.srv
+  ToolManagerState.srv
   IoCardOut.srv
   IoCardIn.srv
   ChangeCommunicationSettings.srv
