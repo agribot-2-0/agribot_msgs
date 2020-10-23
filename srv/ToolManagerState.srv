@@ -1,7 +1,8 @@
 #request constants
 uint8 IDLE=0
-uint8 SCAN=1
-uint8 SET_TLP=2
+uint8 SCAN_FRONT=1
+uint8 SCAN_BACK=2
+uint8 SET_TLP=3
 #request fields
 uint8 requested_state
 ---
@@ -10,5 +11,4 @@ uint8 SUCCESS=0
 uint8 FAIL=1
 #response fields
 uint8 result
-uint8[] ids_front
-uint8[] ids_back
+uint8[] ids
