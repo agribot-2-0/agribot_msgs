@@ -1,3 +1,5 @@
+std_msgs/Header header
+
 # error state can have a value of an:
 # - Active faults are faults that are currently active.
 # - Passive faults ( = previously active faults) are faults which have been active in the past and are not currently active.
