@@ -53,6 +53,8 @@ add_message_files(
   AgribotAppErrorFlag.msg
   AgribotMoveBaseMonitorResult.msg
   AgribotWind.msg
+  AgribotEngineData.msg
+  AgribotEngineErrorData.msg
   AgribotPrecipitation.msg
   AgribotHydraulics.msg
   VisionDetection.msg
