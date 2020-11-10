@@ -46,7 +46,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AgribotCaterpillar.msg
-  AgribotCaterpillarWheels.msg
+  AgribotCaterpillarWheelsRotation.msg
   AgribotTool.msg
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
