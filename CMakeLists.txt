@@ -54,7 +54,10 @@ add_message_files(
   AgribotAppErrorFlag.msg
   AgribotMoveBaseMonitorResult.msg
   AgribotWind.msg
+  AgribotEngineData.msg
+  AgribotEngineErrorData.msg
   AgribotPrecipitation.msg
+  AgribotHydraulics.msg
   VisionDetection.msg
   DetectedObject.msg
   BoundingBox.msg
@@ -71,6 +74,7 @@ add_service_files(
   FILES
   RfidPower.srv
   Tags.srv
+  ToolManagerState.srv
   IoCardOut.srv
   IoCardIn.srv
   ChangeCommunicationSettings.srv
