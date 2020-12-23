@@ -2,7 +2,7 @@
 uint8 FRONT=1
 uint8 BACK=2
 uint8 selected_antenna
-uint8 power_value
+float32 power_value
 ---
 #response constants
 uint8 SUCCESS=1
