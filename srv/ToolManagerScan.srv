@@ -2,7 +2,6 @@
 uint8 IDLE=0
 uint8 SCAN_FRONT=1
 uint8 SCAN_BACK=2
-uint8 SET_TPL=3
 #request fields
 uint8 requested_state
 ---

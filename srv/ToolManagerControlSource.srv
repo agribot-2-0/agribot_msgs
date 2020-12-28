@@ -1,0 +1,12 @@
+#request constants
+uint8 MANUAL=0
+uint8 NAVIGATION=1
+uint8 NONE=2
+#request fields
+uint8 source
+---
+#response constants
+uint8 SUCCESS=0
+uint8 FAIL=1
+#response fields
+uint8 result
