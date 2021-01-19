@@ -68,6 +68,7 @@ add_message_files(
   Polygon.msg
   PolygonStamped.msg
   NavSatFixOrientation.msg
+  Tag.msg
 )
 
 add_service_files(
