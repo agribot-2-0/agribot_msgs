@@ -1,0 +1,2 @@
+bool front_delta_geometry
+bool back_delta_geometry

@@ -58,6 +58,7 @@ add_message_files(
   AgribotEngineErrorData.msg
   AgribotPrecipitation.msg
   AgribotHydraulics.msg
+  AgribotDeltasGeometry.msg
   VisionDetection.msg
   DetectedObject.msg
   BoundingBox.msg
