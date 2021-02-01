@@ -5,6 +5,7 @@ uint8 NORMAL_CATERPILLAR_GEOMETRY=0
 uint8 cart_delta_command
 ---
 # response constants
+uint8 UKNOWN_CATERPILLAR_GEOMETRY=2
 uint8 CHANGED_CATERPILLAR_GEOMETRY=1
 uint8 NORMAL_CATERPILLAR_GEOMETRY=0
 # responde fields
