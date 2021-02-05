@@ -9,5 +9,5 @@ uint8 cart_delta_command
 uint8 UNKNOWN_CATERPILLAR_GEOMETRY=2
 uint8 ELEVATED_CATERPILLAR_GEOMETRY=1
 uint8 NORMAL_CATERPILLAR_GEOMETRY=0
-# responde fields
+# response fields
 uint8 result
