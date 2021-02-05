@@ -81,6 +81,7 @@ add_service_files(
   IoCardIn.srv
   ChangeCommunicationSettings.srv
   ChangeSupervisorSettings.srv
+  ChangeDeltasGeometry.srv
   ResetPrecipitationIntensity.srv
   ChangePrecipitationSettings.srv
   ChangeWindSettings.srv
