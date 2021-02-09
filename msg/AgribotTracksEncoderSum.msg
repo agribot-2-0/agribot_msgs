@@ -1,5 +1,0 @@
-std_msgs/Header header
-int32 front_left_encoder_sum
-int32 front_right_encoder_sum
-int32 back_left_encoder_sum
-int32 back_right_encoder_sum
