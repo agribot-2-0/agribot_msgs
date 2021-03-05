@@ -1,0 +1,24 @@
+uint8 BLACK = 0
+uint8 RED = 1
+uint8 GREEN = 2
+uint8 BLUE = 3
+uint8 YELLOW = 4
+uint8 WHITE = 5
+uint8 ORANGE = 6
+uint8 LIGHT_BLUE = 7
+uint8 PURPLE = 8
+
+uint8 front_left_lamp = 0
+uint8 front_right_lamp = 1
+uint8 back_left_lamp = 2
+uint8 back_right_lamp = 3
+uint8 all_lamps = 255
+ 
+#request fields
+uint8 lamp                               # for which lamp the configuration is being set
+uint8 color                              # the wanted color
+uint16 flash_period_in_miliseconds       # period of lamp flashing, 0 for flash to be turned off 
+uint16 fading_period_in_miliseconds      # how long it takes for the lamp to transit between colours, 0 for the as fast as possible
+---
+#response fields
+bool success

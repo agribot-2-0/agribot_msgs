@@ -73,6 +73,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  LampsControl.srv
   RfidPower.srv
   Tags.srv
   ToolManagerScan.srv
