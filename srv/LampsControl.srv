@@ -11,8 +11,9 @@ uint8 purple = 8
 string control_to_all_lamps = all_lamps
 
 #request fields
-string lamp                               # for which lamp the configuration is being set
+string lamp                              # for which lamp the configuration is being set
 uint8 color                              # the wanted color
+uint8 intensity                          # number from 0 (lamp off) to 100 (maximum light intensity)
 uint16 flash_period_in_miliseconds       # period of lamp flashing, 0 for flash to be turned off 
 uint16 fading_period_in_miliseconds      # how long it takes for the lamp to transit between colours, 0 for the as fast as possible
 ---
