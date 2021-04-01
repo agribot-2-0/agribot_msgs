@@ -8,10 +8,14 @@ uint8 orange = 6
 uint8 light_blue = 7
 uint8 purple = 8
 
-string control_to_all_lamps = all_lamps
+uint8 control_to_all_lamps = 255
+uint8 right_front_lamp = 1
+uint8 left_front_lamp = 2
+uint8 right_back_lamp = 4
+uint8 left_back_lamp = 8
 
 #request fields
-string lamp                              # for which lamp the configuration is being set
+uint8 lamp                              # for which lamp the configuration is being set
 uint8 color                              # the wanted color
 uint8 intensity                          # number from 0 (lamp off) to 100 (maximum light intensity)
 uint16 flash_period_in_miliseconds       # period of lamp flashing, 0 for flash to be turned off 
