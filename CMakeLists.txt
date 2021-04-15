@@ -80,6 +80,7 @@ add_service_files(
   ToolManagerControlSource.srv
   IoCardOut.srv
   IoCardIn.srv
+  StartStopEngine.srv
   ChangeCommunicationSettings.srv
   ChangeSupervisorSettings.srv
   ChangeDeltasGeometry.srv

@@ -1,0 +1,5 @@
+bool start_engine = True
+bool stop_engine = False
+bool engine_command
+---
+bool result
