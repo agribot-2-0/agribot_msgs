@@ -1,9 +1,0 @@
-# request constants
-uint8 NORMAL=0
-uint8 KINEMATIC_CAR=1
-uint8 CRAB_WALK=2
-# request fields
-uint8 driving_mode_command
----
-# response fields
-bool result

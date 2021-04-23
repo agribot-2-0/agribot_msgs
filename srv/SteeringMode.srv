@@ -1,0 +1,9 @@
+# request constants
+uint8 FOUR_WHEEL=0
+uint8 FRONT_WHEEL=1
+uint8 CRAB=2
+# request fields
+uint8 steering_mode
+---
+# response fields
+bool result
