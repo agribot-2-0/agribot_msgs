@@ -88,6 +88,7 @@ add_service_files(
   ChangeWindSettings.srv
   ChangePresTempHumSettings.srv
   ResetPrecipitationcounter.srv
+  SteeringMode.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
