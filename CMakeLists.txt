@@ -125,7 +125,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES agribot_msgs
- CATKIN_DEPENDS message_runtime std_msgs geometry_msgs sensor_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs sensor_msgs actionlib_msgs
 #  DEPENDS system_lib
 )
 
