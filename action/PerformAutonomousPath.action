@@ -1,0 +1,8 @@
+#Goal
+sensor_msgs/NavSatFix[] path
+---
+#result
+bool finished
+---
+#feedback message
+AgribotMoveBaseMonitorResult feedback
