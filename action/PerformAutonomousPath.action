@@ -5,4 +5,4 @@ sensor_msgs/NavSatFix[] path
 bool finished
 ---
 #feedback message
-AgribotMoveBaseMonitorResult feedback
+AgribotNavigationManagerResult feedback

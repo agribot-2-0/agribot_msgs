@@ -5,4 +5,4 @@ string task_name
 bool finished
 ---
 #feedback message
-AgribotMoveBaseMonitorResult feedback
+AgribotNavigationManagerResult feedback
