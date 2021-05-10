@@ -68,7 +68,6 @@ add_message_files(
   AgribotObstacleDetection.msg
   Polygon.msg
   PolygonStamped.msg
-  NavSatFixOrientation.msg
   Tag.msg
 )
 
