@@ -48,6 +48,7 @@ add_message_files(
   AgribotCaterpillar.msg
   AgribotCaterpillarWheelsRotation.msg
   AgribotTool.msg
+  AgribotTtcontrolState.msg
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
   AgribotMoveBaseCommand.msg
