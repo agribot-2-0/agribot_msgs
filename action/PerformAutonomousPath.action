@@ -1,5 +1,6 @@
 #Goal
 sensor_msgs/NavSatFix[] path
+int32 path_progression
 ---
 #result
 bool finished
