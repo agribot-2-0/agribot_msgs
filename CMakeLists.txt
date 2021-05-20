@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
   message_generation
+  actionlib_msgs
 )
 
 ################################################
@@ -51,9 +52,8 @@ add_message_files(
   AgribotTtcontrolState.msg
   AgribotManualControl.msg
   AgribotMobileAppFrame.msg
-  AgribotMoveBaseCommand.msg
   AgribotAppErrorFlag.msg
-  AgribotMoveBaseMonitorResult.msg
+  AgribotNavigationManagerResult.msg
   AgribotWind.msg
   AgribotEngineData.msg
   AgribotEngineErrorData.msg
@@ -68,7 +68,6 @@ add_message_files(
   AgribotObstacleDetection.msg
   Polygon.msg
   PolygonStamped.msg
-  NavSatFixOrientation.msg
   Tag.msg
 )
 
@@ -92,12 +91,20 @@ add_service_files(
   SteeringMode.srv
 )
 
+add_action_files(
+  DIRECTORY action
+  FILES
+  PerformAutonomousTask.action
+  PerformAutonomousPath.action
+)
+
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
   sensor_msgs
+  actionlib_msgs
 )
 
 ################################################
