@@ -69,6 +69,9 @@ add_message_files(
   Polygon.msg
   PolygonStamped.msg
   Tag.msg
+  BynavExtendedSolutionStatus.msg
+  BynavGnssExtended.msg
+  BynavHeadingExtended.msg
 )
 
 add_service_files(
