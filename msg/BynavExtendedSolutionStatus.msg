@@ -1,0 +1,4 @@
+bool rtk_solution_verified
+uint8 iono_correction
+bool rtk_assist_active
+uint8 antenna_status

@@ -13,4 +13,4 @@ uint8 ABORTED = 4
 uint8 FAILED = 5
 uint8 RECALLED = 7
 uint8 PAUSED = 10
-uint8 PATH_COMPLETED = 100
+uint8 COMPLETED = 100
