@@ -1,0 +1,8 @@
+uint32 solution_status
+uint32 position_status
+agribot_msgs/BynavExtendedSolutionStatus extended_solution_status
+uint8 tracked_satellites_n
+uint8 solution_satellites_n
+
+float32 differential_age
+float32 solution_age
