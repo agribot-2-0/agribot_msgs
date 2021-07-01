@@ -1,0 +1,2 @@
+geometry_msgs/PoseStamped center
+geometry_msgs/Vector3 size
