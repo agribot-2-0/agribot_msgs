@@ -68,21 +68,6 @@ add_message_files(
 
 add_message_files(
   FILES
-    VisionDetection.msg
-    DetectedObject.msg
-    BoundingBox.msg
-    ObjectClass.msg
-    SonarStatus.msg
-    SonarDetection.msg
-    AgribotObstacleDetection.msg
-    Polygon.msg
-    PolygonStamped.msg
-  DIRECTORY
-    msg/obstacle_detection/old
-)
-
-add_message_files(
-  FILES
     BoundingBox3D.msg
     Object2D.msg
     Object2DArray.msg

@@ -1,2 +1,0 @@
-std_msgs/Header header
-agribot_msgs/Polygon polygon
