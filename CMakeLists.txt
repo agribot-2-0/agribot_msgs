@@ -90,6 +90,7 @@ add_message_files(
     Object3DArray.msg
     ObjectPolygon.msg
     ObjectPolygonArray.msg
+    ObstacleDetectionStatus.msg
   DIRECTORY
     msg/obstacle_detection
 )
