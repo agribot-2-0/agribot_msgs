@@ -1,0 +1,5 @@
+std_msgs/Header header
+agribot_msgs/BoundingBox3D bbox             # Object's 3D bounding box
+sensor_msgs/PointCloud2 point_cloud         # Object's points cluster
+vision_msgs/ObjectHypothesis[] classes      # List of object's class hypotheses
+int64 id                                    # Unique object id

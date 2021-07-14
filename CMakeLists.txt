@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   sensor_msgs
+  vision_msgs
   message_generation
   actionlib_msgs
 )
@@ -46,32 +47,37 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  AgribotCaterpillar.msg
-  AgribotCaterpillarWheelsRotation.msg
-  AgribotTool.msg
-  AgribotTtcontrolState.msg
-  AgribotManualControl.msg
-  AgribotMobileAppFrame.msg
-  AgribotAppErrorFlag.msg
-  AgribotNavigationManagerResult.msg
-  AgribotWind.msg
-  AgribotEngineData.msg
-  AgribotEngineErrorData.msg
-  AgribotPrecipitation.msg
-  AgribotHydraulics.msg
-  VisionDetection.msg
-  DetectedObject.msg
-  BoundingBox.msg
-  ObjectClass.msg
-  SonarStatus.msg
-  SonarDetection.msg
-  AgribotObstacleDetection.msg
-  Polygon.msg
-  PolygonStamped.msg
-  Tag.msg
-  BynavExtendedSolutionStatus.msg
-  BynavGnssExtended.msg
-  BynavHeadingExtended.msg
+    AgribotCaterpillar.msg
+    AgribotCaterpillarWheelsRotation.msg
+    AgribotTool.msg
+    AgribotTtcontrolState.msg
+    AgribotManualControl.msg
+    AgribotMobileAppFrame.msg
+    AgribotAppErrorFlag.msg
+    AgribotNavigationManagerResult.msg
+    AgribotWind.msg
+    AgribotEngineData.msg
+    AgribotEngineErrorData.msg
+    AgribotPrecipitation.msg
+    AgribotHydraulics.msg
+    Tag.msg
+    BynavExtendedSolutionStatus.msg
+    BynavGnssExtended.msg
+    BynavHeadingExtended.msg
+)
+
+add_message_files(
+  FILES
+    BoundingBox3D.msg
+    Object2D.msg
+    Object2DArray.msg
+    Object3D.msg
+    Object3DArray.msg
+    ObjectPolygon.msg
+    ObjectPolygonArray.msg
+    ObstacleDetectionStatus.msg
+  DIRECTORY
+    msg/obstacle_detection
 )
 
 add_service_files(
@@ -107,6 +113,7 @@ generate_messages(
   std_msgs
   geometry_msgs
   sensor_msgs
+  vision_msgs
   actionlib_msgs
 )
 
@@ -127,7 +134,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES agribot_msgs
- CATKIN_DEPENDS message_runtime std_msgs geometry_msgs sensor_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs sensor_msgs vision_msgs
 #  DEPENDS system_lib
 )
 
