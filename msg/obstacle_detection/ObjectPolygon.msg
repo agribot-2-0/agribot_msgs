@@ -1,6 +1,8 @@
 std_msgs/Header header
 geometry_msgs/Polygon polygon
 uint8 type
+float64 area
+geometry_msgs/Point32 centroid
 
 # Polygon types
 uint8 UNKNOWN = 0
