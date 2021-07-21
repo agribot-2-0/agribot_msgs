@@ -3,6 +3,7 @@ geometry_msgs/Polygon polygon
 uint8 type
 float64 area
 geometry_msgs/Point32 centroid
+sensor_msgs/PointCloud2 point_cloud
 
 # Polygon types
 uint8 UNKNOWN = 0
