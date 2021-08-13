@@ -64,6 +64,7 @@ add_message_files(
     BynavExtendedSolutionStatus.msg
     BynavGnssExtended.msg
     BynavHeadingExtended.msg
+    Row.msg
 )
 
 add_message_files(

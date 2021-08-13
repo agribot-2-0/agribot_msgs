@@ -1,0 +1,3 @@
+bool presence
+geometry_msgs/PoseStamped begin
+geometry_msgs/PoseStamped end
