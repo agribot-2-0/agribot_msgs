@@ -4,7 +4,6 @@ uint8 solution_source
 agribot_msgs/BynavExtendedSolutionStatus extended_solution_status
 uint8 tracked_satellites_n
 uint8 solution_satellites_n
-string station_id
 
 float32 baseline_length
 
