@@ -5,4 +5,15 @@ string task_name
 bool finished
 ---
 #feedback message
-AgribotNavigationManagerResult feedback
+std_msgs/Header header
+uint8 feedback
+
+### CONSTANTS ###
+# Status types
+uint8 PAUSED = 0
+uint8 ACTIVE = 1
+uint8 ABORTED = 2
+uint8 CANCELLED = 3
+uint8 OBSTACLE_DETECTED = 4
+uint8 ERROR = 5
+uint8 COMPLETED = 100
